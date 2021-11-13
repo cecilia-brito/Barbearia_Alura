@@ -1,0 +1,180 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background:#BBBBBB;
+    padding: 20px 0;
+}
+.container{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+color: #C78C19;
+text-decoration: underline;
+}
+
+
+footer{
+    text-align: center;
+    background: url('/assets/bg.jpg');
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+
+/* css home */
+.banner{
+   width: 100%;
+}
+
+.principal-title{
+   text-align: center;
+   font-size: 2em;
+   margin-bottom: 1em;
+   clear: left; 
+   color: rgb(0,0,0,0.3);
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+} 
+
+.principal p{
+    margin-bottom: 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+
+}
+
+.principal .utensilios{
+    float: left;
+    margin: 0  20px 20px 0;
+    width: 120px;
+}
+
+.map{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE,#888888);
+}
+.map-content{
+    width: 940px;
+    margin: 0 auto;
+}
+.map p{
+    margin-bottom: 2em;
+    text-align: center;
+    
+}
+
+.benefits{
+    padding: 3em 0;
+    background: #888888;
+}
+.benefits-content{
+width: 640px;
+margin: 0 auto;
+}
+
+.benefits-list{
+width: 40%;
+display: inline-block;
+vertical-align: top;
+}
+
+.itens{
+line-height: 1.5em;
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "★"
+}
+
+.benefits-image{
+    width: 60%;
+    opacity: 0.3;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.benefits-image:hover {
+    opacity: 1;
+}
+
+.video{
+width: 540px;
+margin: 2em auto;
+}
+
+.principal-content{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* responsividade home */
+@media screen and (max-width: 480px) {
+
+   .principal-content, .container, .principal, .benefits-content, .map-content, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+    nav a{
+        font-size: 32px;
+    }
+    .benefits-list, .benefits-image {
+        width: 100%;
+    }
+    header{
+        width: 250%;
+    }
+    footer{
+        width: 250%;
+    }
+    
+    
+
+}

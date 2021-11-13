@@ -1,0 +1,100 @@
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    width: auto;
+}
+
+.pattern-input{
+    display: block;
+    margin:0 0 20px;
+    padding: 10px 25px;
+    width: auto;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+.button-send{
+    width: auto;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.button-send:hover{
+    background-color: black;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 52px 87px;
+}
+
+/* @media screen and (max-width: 480px) {
+    main{
+        width: 100vw;
+    }
+   .principal-content{
+        margin: 10px auto;
+        width: auto;
+        height: auto;
+    }
+    form{
+        margin: 40px 100px;
+        width: 27rem;
+    }
+    table{
+        margin: 20px 100px 40px;
+    }
+
+    form label{
+        width: 100%;
+        font-size: 42px;
+    }
+    form legend{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .whatIsContact{
+        margin-top: 20px;
+    }
+
+    label .checkbox{
+        width: 100%;
+    }
+
+    fieldset label{
+        font-size:30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .pattern-input{
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+} */
