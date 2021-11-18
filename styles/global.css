@@ -5,6 +5,7 @@ body{
 header{
     background:#BBBBBB;
     padding: 20px 0;
+    width: auto;
 }
 .container{
     position: relative;
@@ -146,6 +147,7 @@ margin: 2em auto;
     width: 940px;
     margin: 0 auto;
 }
+
 
 /* responsividade home */
 @media screen and (max-width: 480px) {

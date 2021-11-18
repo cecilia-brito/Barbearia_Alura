@@ -3,6 +3,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width"/>
         <title>Contato - Barberia Alura</title>
+        <script src="/main.js" defer type="module"></script>
         <link rel="stylesheet" href="/styles/reset.css"></link>
         <link rel="stylesheet" href="/styles/global.css"></link>
         <link rel="stylesheet" href="/styles/contacts.css"></link>
@@ -10,16 +11,17 @@
     </head>
     <body>
         <header>
-            <div class="container">
                 <h1><a href="/html/index.html"><img src="/assets/logo.png" alt="Logo da Barbearia Alura"></a></h1>
-                <nav>
-                    <ul>
+                <nav id="navigation">
+                    <button id="mobile-btn">
+                        <span id = "menu-hamburguer"></span>
+                    </button>
+                    <ul id="menu">
                         <li><a href="/html/index.html">Home</a></li>
                         <li><a href="/html/nova página.html">Produtos</a></li>
                         <li><a href="/html/contatos.html">Contatos</a></li>
                     </ul>
                 </nav>
-            </div>
         </header>
         <main>
             <div class="principal-content">

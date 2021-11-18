@@ -54,18 +54,136 @@ td, th {
     padding: 52px 87px;
 }
 
-/* @media screen and (max-width: 480px) {
+#mobile-btn{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    body{
+        display: block;
+    }
+    header{
+        display: flex;
+        /* margin: auto 5rem; */
+        align-items: center;
+    }
+
+    header img{
+        margin-left: 5rem;
+    }
+
+    #navigation{
+        margin-left: 30rem;
+    }
+    #mobile-btn{
+        display: flex;
+        padding: 2rem;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    #menu-hamburguer{
+        width: 3.6rem;
+        border-top: solid  black 0.4rem;
+    }
+
+
+    span::before, span::after{
+        content: '';
+        display: block;
+        width: 3.6rem;
+        height: 0.4rem;
+        background: black;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        transition: 0.4s all;
+    }
+              
+    
+
+     #menu{
+         /* display: block; */
+         top: 16.8rem;
+         visibility: hidden;
+         z-index: 1000;
+         background-color:#BBBBBB;
+         color: white;
+         position: absolute;
+         right: 0;
+         height: 100vh;
+         margin: 0;
+         width: 100%;
+     }
+
+     /* #menu::before{
+        content: '';
+        visibility: hidden;
+        width: 3.6rem;
+        height: 2.4rem;
+        clip-path:  polygon(50% 0%, 0% 100%, 100% 100%);
+        background-color: #e2e2e2;
+        position: absolute;
+        top:-2rem;
+        margin-left: 1rem;
+    } */
+ 
+     #menu li:nth-child(1n){
+         display: block;
+        border-bottom:  rgb(253, 252, 252) solid 0.3rem;
+        margin: 0;
+        padding: 2rem;
+     }
+
+     #menu li a{
+        color:black;
+        padding: 2rem;
+        transition: 1.2s color;
+     }
+
+      #menu li a:hover{
+          background-color: #9e9e9e;
+      }
+ 
+     #navigation.active > #menu{
+        display: block;
+        visibility: visible;
+     }
+
+    #navigation.active > #menu::before{
+         visibility: visible;
+     }
+
+    #navigation.active #menu-hamburguer{
+        border-top-color: transparent;
+    }
+
+    #navigation.active #menu-hamburguer::before{
+        transform: rotate(135deg);
+        background-color: #9e9e9e;
+    }
+
+    #navigation.active #menu-hamburguer::after{
+        transform: rotate(-135deg);
+        position: relative;
+        top: -.95rem;
+        background-color: #9e9e9e;
+    }
+
+   
+    
     main{
         width: 100vw;
+        margin: 0;
     }
+
    .principal-content{
-        margin: 10px auto;
+        margin: 4rem auto;
         width: auto;
         height: auto;
     }
     form{
         margin: 40px 100px;
-        width: 27rem;
+        width: 40rem;
     }
     table{
         margin: 20px 100px 40px;
@@ -88,7 +206,7 @@ td, th {
         width: 100%;
     }
 
-    fieldset label{
+    fieldset label, fieldset legend{
         font-size:30px;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -97,4 +215,10 @@ td, th {
         padding: 20px 30px;
         font-size: 20px;
     }
-} */
+
+    .button-send{
+        padding: 1rem;
+        font-size: 2.4rem;
+        margin: 2rem auto;
+    }
+}
