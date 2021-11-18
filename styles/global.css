@@ -165,18 +165,18 @@ margin: 2em auto;
         text-align: center;
     }
     nav a{
-        font-size: 32px;
+        font-size: 24px;
     }
     .benefits-list, .benefits-image {
         width: 100%;
     }
-    header{
+    /* header{
         width: 250%;
     }
     footer{
         width: 250%;
     }
     
-    
+     */
 
 }

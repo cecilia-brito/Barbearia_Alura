@@ -49,6 +49,25 @@
 
 /* responsividade */
 @media screen and (max-width: 480px) {
+    header, .container {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+    nav a{
+        font-size: 32px;
+    }
+    header{
+            display: block;
+            width: 252%;
+    }
     .products li{
         display: block;
         text-align: center;
@@ -81,5 +100,10 @@
 
     .products li:hover p{
         font-size: 34px;
+    }
+
+    footer{
+        display: block;
+        width: 252%;
     }
 }

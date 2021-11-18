@@ -66,6 +66,9 @@ td, th {
         /* margin: auto 5rem; */
         align-items: center;
     }
+    header, footer{
+        width: 250%;
+    }
 
     header img{
         margin-left: 5rem;
@@ -110,9 +113,11 @@ td, th {
          color: white;
          position: absolute;
          right: 0;
-         height: 100vh;
-         margin: 0;
-         width: 100%;
+         left: 0;
+         height: 0;
+         width: 250%;
+         transition: .6s all;
+         overflow-y: hidden;
      }
 
      /* #menu::before{
@@ -126,18 +131,26 @@ td, th {
         top:-2rem;
         margin-left: 1rem;
     } */
+
+    #menu li{
+        text-align: left;
+        border-bottom:  rgb(253, 252, 252, 0.) solid 0.3rem;
+    }
+
  
      #menu li:nth-child(1n){
-         display: block;
-        border-bottom:  rgb(253, 252, 252) solid 0.3rem;
-        margin: 0;
+        display: block;
+        /* border-bottom:  rgb(253, 252, 252) solid 0.3rem; */
+        /* margin: 0; */
         padding: 2rem;
+        /* border-top:  rgb(253, 252, 252) solid 0.3rem; */
      }
 
      #menu li a{
         color:black;
         padding: 2rem;
         transition: 1.2s color;
+        font-size: 2.6rem;
      }
 
       #menu li a:hover{
@@ -147,6 +160,8 @@ td, th {
      #navigation.active > #menu{
         display: block;
         visibility: visible;
+        height: 280%;
+        overflow-y: auto;
      }
 
     #navigation.active > #menu::before{
