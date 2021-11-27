@@ -21,9 +21,7 @@
 
 ## → Tecnologias Utilizadas
 
-- [✅] [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [✅] [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [✅] [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+<a href='https://developer.mozilla.org/pt-BR/docs/Web/HTML'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='logo do HTML em laranja' width ='60' height='60'/></a><a href='https://developer.mozilla.org/pt-BR/docs/Web/CSS'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='logo do CSS em azul'  width ='60' height='60'/></a><a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='logo do JavaScript em amarelo'  width ='60' height='60' /></a>
 
 ## → Author
 
